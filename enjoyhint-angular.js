@@ -68,7 +68,7 @@ var enjoyhint;
         return InteractionHelperDirective;
     }());
     enjoyhint.InteractionHelperDirective = InteractionHelperDirective;
-    angular.module("enjoyhint.angular")
+    angular.module("enjoyhint.angular", [])
         .directive("a", InteractionHelperDirective);
 })(enjoyhint || (enjoyhint = {}));
 //# sourceMappingURL=enjoyhint-angular.js.map
